@@ -1,0 +1,44 @@
+{
+  "camera": {
+    "fovY": 1.0472
+  },
+  "materials": {
+    "red": {
+      "albedo": [1, 0, 0]
+    },
+    "green": {
+      "albedo": [0, 1, 0]
+    },
+    "blue": {
+      "albedo": [0, 0, 1]
+    },
+    "white": {
+      "albedo": [1, 1, 1]
+    }
+  },
+  "objects": [
+    {
+      "type": "sphere",
+      "position": [0, 0, -10],
+      "radius": 1,
+      "material": "white"
+    },
+    {
+      "type": "sphere",
+      "position": [-5, 0, -10],
+      "radius": 1,
+      "material": "blue"
+    },
+    {
+      "type": "sphere",
+      "position": [5, 0, -10],
+      "radius": 1,
+      "material": "red"
+    },
+    {
+      "type": "light",
+      "radiantPower": 1000,
+      "position": [2.5, 1, -6]
+    }
+  ]
+}

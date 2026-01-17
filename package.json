@@ -1,0 +1,33 @@
+{
+  "name": "ts-hello",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@eslint/json": "^0.14.0",
+    "@types/node": "^25.0.9",
+    "@types/pngjs": "^6.0.5",
+    "@types/yargs": "^17.0.35",
+    "eslint": "^9.39.2",
+    "globals": "^17.0.0",
+    "jiti": "^2.6.1",
+    "prettier": "^3.8.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.53.0"
+  },
+  "dependencies": {
+    "gl-matrix": "^3.4.4",
+    "pngjs": "^7.0.0",
+    "yargs": "^18.0.0"
+  }
+}
